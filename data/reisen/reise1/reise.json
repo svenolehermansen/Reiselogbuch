@@ -1,0 +1,12 @@
+{
+    "titel": "Wohnmobilreise Norddeutschland",
+    "startdatum": "2024-05-14",
+    "enddatum": "2024-05-28",
+    "route": [
+        [53.5511, 9.9937],
+        [54.3233, 10.1228],
+        [54.0924, 12.0991]
+    ],
+    "zusammenfassung": "Wir sind von Hamburg über Kiel bis Rostock gefahren.",
+    "logs": ["log1", "log2"]
+}
