@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Wohnmobil-Reiselogbuch</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="libs/leaflet.css">
+</head>
+<body>
+<div id="login">
+    <input type="password" id="password" placeholder="Passwort eingeben">
+    <button onclick="checkPassword()">Login</button>
+</div>
+
+<div id="app" style="display:none;">
+    <header>
+        <h1>Mein Wohnmobil-Reisetagebuch</h1>
+    </header>
+
+    <section id="reisen-liste"></section>
+
+    <div id="reise-detail" style="display:none;">
+        <h2 id="reise-titel"></h2>
+        <div id="karte" style="height:400px;"></div>
+        <section id="logs"></section>
+        <div id="zusammenfassung"></div>
+    </div>
+</div>
+
+<script src="libs/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
